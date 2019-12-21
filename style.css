@@ -1,0 +1,210 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+section, article, aside, hgroup, header, footer, main, nav, figure {
+  display: block;
+}
+img {
+  display: block;
+  border: none;
+}
+a {
+  color: #1a8953;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.7;
+}
+ul, ol {
+  list-style-type: none;
+}
+body {
+  font-size: 15px;
+  color: #484848;
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: #fff;
+  line-height: 1.7em;
+}
+header {
+  width:100%;
+  min-width: 1000px;
+  overflow: hidden;
+}
+#logo {
+  float: left;
+  width: 209px;
+  margin-top: 25px;
+  margin-left: 24px;
+}
+#logo a:hover{
+  opacity: 1;
+}
+header nav {
+  float: right;
+  width: 750px;
+}
+header li {
+  float: left;
+  width:150px;
+}
+header li a{
+  display: block;
+  height: 58px;
+  text-align: center;
+  padding-top: 36px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3fb079;
+}
+header li a:hover{
+	background-color: #e9f9f1;
+	opacity: 1;
+}
+a#contact{
+  -moz-background: linear-gradient(left, #ffb64d, #f36d3f);
+  -webkit-background: linear-gradient(left, #ffb64d, #f36d3f);
+  background: linear-gradient(to right, #ffb64d, #f36d3f);
+  color: #FFF;
+}
+a#contact:hover{
+  background: #ffb64d;
+  opacity: 1;
+}
+main{
+  clear:both;
+  width:100%;
+}
+#mainPhoto{
+  width: 100%;
+  min-width: 1000px;
+  height: 263px;
+  padding: 155px 0 0 0;
+  background-image:url("../../images/main.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+#mainPhoto img{
+  width: 598px;
+  margin: auto;
+}
+main h2{
+  margin-bottom: 27px;
+  text-align: center;
+  font-size: 24px;
+}
+.h2_style1{
+  display: block;
+  font-size: 14px;
+  color: #3fb079;
+}
+#seminar{
+  margin-top: 71px;
+}
+#seminar ul{
+  background-color: #e9f9f1;
+  width: 940px;
+  margin: auto;
+  padding: 30px 30px;
+  overflow: hidden;
+}
+#seminar li{
+  float: left;
+}
+#seminar img{
+ float: left;
+}
+#seminar p{
+  float: left;
+  width:250px;
+  margin-left: 12px;
+}
+#seminarLeftText{
+  margin-right: 30px;
+}
+#mainMission{
+  clear: both;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:78px;
+  overflow: hidden;
+}
+.more{
+  display: block;
+  float: right;
+  background-color: #3fb079;
+  padding: 14px;
+  border-radius: 30px;
+  color: #FFF;
+  font-weight: bold;
+}
+#mainNews{
+  clear: both;
+  width: 100%;
+  margin-top:78px;
+  background-color:#e9f9f1;
+  padding:43px 0;
+}
+#mainNewsInner{
+  width: 1000px;
+  margin: auto;
+}
+#mainNewsInner td:nth-child(1){
+  width:100px;
+}
+#mainNews a:hover{
+  text-decoration: underline;
+  opacity:1;
+}
+#otherContents{
+  width:1000px;
+  margin:78px auto 81px;
+}
+#otherContents ul{
+  padding: 4px;
+  text-align: center;
+}
+#otherContents li{
+  display:inline-block;
+  margin:0 19px;
+}
+.shadow {
+box-shadow: 0 0 5px 1px #eee;
+}
+footer{
+  background-color: #3fb079;
+  color: #FFF;
+  font-size: 12px;
+}
+#footerInner{
+  width:1000px;
+  margin: auto;
+  padding: 36px 20px 121px;
+}
+#footerLogo{
+  width: 209px;
+}
+#footerLogo a:hover{
+  opacity: 1;
+}
+#footerInner ul{
+  float: left;
+  margin-top:48px;
+}
+#footerInner li{
+  float: left;
+  margin-right: 17px;
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 10px;
+}
+#footerInner a{
+  color:#FFF;
+}
+#footerInner p{
+  float: right;
+  margin-top:48px;
+}
